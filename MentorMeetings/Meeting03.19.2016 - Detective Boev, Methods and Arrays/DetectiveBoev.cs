@@ -27,9 +27,9 @@ namespace DetectiveBoev
                 string tempMask = mask.ToString();
                 mask = 0;
 
-                foreach(char value in tempMask)
+                foreach(char symbol in tempMask)
                 {
-                    mask += (int)char.GetNumericValue(value);
+                    mask += (int)char.GetNumericValue(symbol);
                     //mask += value - '0'; ----> Different way to get numeric value of character symbol
                 }
 
