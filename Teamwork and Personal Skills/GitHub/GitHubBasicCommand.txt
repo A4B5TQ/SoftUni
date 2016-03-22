@@ -1,0 +1,38 @@
+<<<<<<<<<GIT>>>>>>>>>
+
+Distributed source-control system
+Work with local and remote repositories
+Git bash – command line interface for Git
+Free, open-source
+Has Windows version (msysGit)
+http://msysgit.github.io
+https://www.atlassian.com/git/tutorials/setting-up-a-repository
+============================================================================
+<<<<<<<<<Installing Git>>>>>>>>>>>
+
+msysGit Installation on Windows
+Download Git for Windows from: http://msysgit.github.io
+“Next, Next, Next” does the trick
+Options to select (they should be selected by default)
+“Use Git Bash only”
+“Checkout Windows-style, commit Unix-style endings”
+============================================================================
+<<<<<<<<<Basic Git Commands>>>>>>>>>>>
+
+
+Cloning an existing Git repository
+--------> git clone [remote url]
+Fetch and merge the latest changes from the remote repository
+--------> git pull
+Preparing (adding / selecting) files for a commit
+--------> git add [filename] ("git add ." adds everything)
+Committing to the local repository
+--------> git commit –m "[your message here]"
+Check the status of your local repository (see the local changes)
+--------> git status
+Creating a new local repository (in the current directory)
+--------> git init
+Creating a remote (assign a short name for remote Git URL)
+--------> git remote add [remote name] [remote url]
+Pushing to a remote (send changes to the remote repository)
+--------> git push [remote name] [local name]
