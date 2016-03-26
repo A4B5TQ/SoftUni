@@ -11,7 +11,7 @@ public class FormattingNumbers {
         double b = sc.nextDouble();
         double c = sc.nextDouble();
 
-        System.out.printf("|%1$-10x|%4$10s|%2$10.2f|%3$-10.3f", a, b, c, toBinaryPadLeft(a));
+        System.out.printf("|%1$-10X|%4$10s|%2$10.2f|%3$-10.3f|", a, b, c, toBinaryPadLeft(a));
     }
 
     static String toBinaryPadLeft(int a) {
