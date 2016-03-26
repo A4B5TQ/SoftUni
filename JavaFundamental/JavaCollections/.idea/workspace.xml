@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b934cab-b88f-405a-aeed-6e3b13677c62" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StuckNumbers.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaSyntax/res/~$ Java-Syntax-Homework.docx" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaSyntax/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JavaSyntax/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="3b934cab-b88f-405a-aeed-6e3b13677c62" name="Default" comment="" />
     <ignored path="JavaCollectionsHomewrok.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -798,7 +793,7 @@
       <workItem from="1458985867850" duration="161000" />
       <workItem from="1458986042516" duration="18972000" />
       <workItem from="1459008610931" duration="6000" />
-      <workItem from="1459009669518" duration="1663000" />
+      <workItem from="1459009669518" duration="1862000" />
     </task>
     <task id="LOCAL-00001" summary="Homework">
       <created>1458849041293</created>
@@ -810,7 +805,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23178000" />
+    <option name="totallyTimeSpent" value="23377000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -822,8 +817,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
