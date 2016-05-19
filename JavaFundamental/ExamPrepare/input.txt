@@ -1,0 +1,4 @@
+1vi vhod
+2ri vhod
+1vi vhod
+2ri
