@@ -1,0 +1,5 @@
+What is TreeSet Interface?|It is a Set implemented when we want elements in a tree based order.|It is a Set implemented when we want elements in a sorted order.|It is a Set implemented when we want elements in a binary tree format.|It is a Set implemented when we want elements in a hiearchical order.|It is a Set implemented when we want elements in a sorted order.
+What is Set Interface?|Set is a collection of element which contains elements along with their key.|Set is a collection of element which contains hashcode of elements.|Set is a collection of element which cannot contain duplicate elements.|Set is a collection of element which can contain duplicate elements.|Set is a collection of element which cannot contain duplicate elements.
+Which of these is not a interface in the Collections Framework?|Collection|Group|Set|List|Group
+Which interface restricts duplicate elements?|Set|List|Map|All|Set
+Which of these collection class has the ability to grow dynamically?|Array|Arrays|ArrayList|None of the above|ArrayList

@@ -1,0 +1,6 @@
+What is the default value of char variable?|'\u0000'|0|null|not defined|'\u0000'
+Which operator is considered to be with highest precedence?|() , [] |=|?:|%|() , [] 
+What is the size of double variable?|8 bit|16 bit|32 bit|64 bit|64 bit|
+Which of the following is false about String?|String is immutable.|String can be created using new operator.|String is a primary data type.|None of the above.|String is a primary data type.
+What is JRE?|JRE is a java based GUI application.|JRE is an application development framework.|JRE is an implementation of the Java Virtual Machine which executes Java programs.|None of the above.|None of the above.
+Shte si vzema li java -ta|Da|Da|Da|Ne|Ne

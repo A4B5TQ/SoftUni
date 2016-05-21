@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ImageInput?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="engine.controllers.GameChooseController">
+   <children>
+      <Label layoutX="-12.0" prefHeight="859.0" prefWidth="1049.0">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:res/PictureRes/Background/images.jpg" />
+               </source>
+            </ImageInput>
+         </effect>
+      </Label>
+      <Text fontSmoothingType="LCD" layoutX="363.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SELECT QUIZ" textAlignment="CENTER">
+         <font>
+            <Font name="Agency FB Bold" size="70.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="0.4368932038834952" endY="0.42718446601941745" startX="0.4368932038834951" startY="0.7815533980582524">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="WHITE" offset="0.007246376811594203" />
+                  <Stop color="#e40303" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <VBox fx:id="selectQuiz" alignment="CENTER" layoutX="302.0" layoutY="197.0" prefHeight="160.0" prefWidth="260.0" spacing="5.0">
+         <children>
+            <Button fx:id="javaBasicQuiz" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#basicChoose" prefHeight="90.0" prefWidth="420.0" style="-fx-background-color: transparent;" text="Java Basics Quiz" textAlignment="CENTER" textOverrun="LEADING_ELLIPSIS">
+               <font>
+                  <Font name="Lucida Sans Demibold" size="42.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="0.4805825242718444" startX="1.0" startY="0.47572815533980584">
+                     <stops>
+                        <Stop color="WHITE" />
+                        <Stop color="#fffefe" offset="0.007246376811594203" />
+                        <Stop color="#e77b7b" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Button fx:id="javaArrayQuiz" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#arrayChoose" prefHeight="90.0" prefWidth="420.0" style="-fx-background-color: transparent;" text="Java Array Quiz" textAlignment="CENTER" textOverrun="LEADING_ELLIPSIS">
+               <font>
+                  <Font name="Lucida Sans Demibold" size="42.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="0.4805825242718444" startX="1.0" startY="0.47572815533980584">
+                     <stops>
+                        <Stop color="WHITE" />
+                        <Stop color="#fffefe" offset="0.007246376811594203" />
+                        <Stop color="#e77b7b" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Button fx:id="javaCollectionQuiz" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#collectionChoose" prefHeight="90.0" prefWidth="420.0" style="-fx-background-color: transparent;" text="Collection Quiz" textAlignment="CENTER">
+               <font>
+                  <Font name="Lucida Sans Demibold" size="45.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="0.4805825242718444" startX="1.0" startY="0.47572815533980584">
+                     <stops>
+                        <Stop color="WHITE" />
+                        <Stop color="#fffefe" offset="0.007246376811594203" />
+                        <Stop color="#e77b7b" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Button fx:id="javaOOPQuiz" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#oopChoose" prefHeight="90.0" prefWidth="420.0" style="-fx-background-color: transparent;" text="Java OOP Quiz" textAlignment="CENTER">
+               <font>
+                  <Font name="Lucida Sans Demibold" size="45.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="0.4805825242718444" startX="1.0" startY="0.47572815533980584">
+                     <stops>
+                        <Stop color="WHITE" />
+                        <Stop color="#fffefe" offset="0.007246376811594203" />
+                        <Stop color="#e77b7b" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+         </children>
+      </VBox>
+      <Label fx:id="backLabel" layoutX="954.0" layoutY="695.0" prefHeight="59.0" prefWidth="56.0" visible="false">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:res/PictureRes/Png%60s/BackButtonResize.png" />
+               </source>
+            </ImageInput>
+         </effect>
+         <graphic>
+            <Button fx:id="backButton" mnemonicParsing="false" onAction="#pressedBack" prefHeight="75.0" prefWidth="64.0" style="-fx-background-color: transparent;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </graphic>
+      </Label>
+      <VBox fx:id="gameModeButtons" layoutX="254.0" layoutY="282.0" prefHeight="216.0" prefWidth="510.0" spacing="40.0" visible="false">
+         <children>
+            <Button fx:id="singleGame" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSingleGame" prefHeight="80.0" prefWidth="500.0" style="-fx-background-color: transparent;" text="SINGLE GAME">
+               <font>
+                  <Font name="Arial Black" size="40.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="0.3009708737864075" startX="1.0" startY="0.7038834951456311">
+                     <stops>
+                        <Stop color="WHITE" />
+                        <Stop color="#fffefe" offset="0.007246376811594203" />
+                        <Stop color="#fc0606" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Button fx:id="challengeGame" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectChallengeGame" prefHeight="87.0" prefWidth="560.0" style="-fx-background-color: transparent;" text="CHALLENGE GAME">
+               <font>
+                  <Font name="Arial Black" size="40.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="0.6650485436893201" startX="1.0" startY="0.2815533980582525">
+                     <stops>
+                        <Stop color="WHITE" />
+                        <Stop color="#fffefe" offset="0.007246376811594203" />
+                        <Stop color="#f80909" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+         </children>
+      </VBox>
+      <Label layoutX="7.0" layoutY="641.0" prefHeight="127.0" prefWidth="82.0">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:res/PictureRes/Png%60s/java-logo.png" />
+               </source>
+            </ImageInput>
+         </effect>
+      </Label>
+      <Button fx:id="rankList" layoutX="412.0" layoutY="614.0" mnemonicParsing="false" onAction="#rankListPressed" style="-fx-background-color: transparent;" text="Rank LIst" visible="false">
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.32524271844660196" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="WHITE" offset="0.007246376811594203" />
+                  <Stop color="#e40303" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

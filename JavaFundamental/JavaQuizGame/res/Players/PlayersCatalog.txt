@@ -1,0 +1,13 @@
+cvety|cvety|10
+Ivan|Ivan|0
+Ivan|Ivan|50
+Ivan|Ivan|100
+Ivan|Ivan|80
+Ivan|Ivan|80
+Ivan|Ivan|100
+Ivan|Ivan|120
+Ivan|Ivan|170
+Ivan|Ivan|200
+Bojo|bojo|0
+Bojo|bojo|50
+Bojo|bojo|90

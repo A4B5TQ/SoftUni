@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ImageInput?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="quiz" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="engine.controllers.GameController">
+   <children>
+      <Label prefHeight="788.0" prefWidth="1044.0">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:res/PictureRes/Background/images.jpg" />
+               </source>
+            </ImageInput>
+         </effect>
+      </Label>
+      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#fffcfc66" height="350.0" layoutX="78.0" layoutY="44.0" stroke="BLACK" strokeType="INSIDE" width="900.0" />
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="#fffcfc66" height="120.0" layoutX="33.0" layoutY="460.0" stroke="BLACK" strokeType="INSIDE" width="460.0" />
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="#fffcfc66" height="120.0" layoutX="531.0" layoutY="461.0" stroke="BLACK" strokeType="INSIDE" width="460.0" />
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="#fffcfc66" height="120.0" layoutX="33.0" layoutY="603.0" stroke="BLACK" strokeType="INSIDE" width="460.0" />
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="#fffcfc66" height="120.0" layoutX="531.0" layoutY="603.0" stroke="BLACK" strokeType="INSIDE" width="460.0" />
+      <Label fx:id="question" alignment="CENTER" contentDisplay="CENTER" layoutX="85.0" layoutY="44.0" prefHeight="350.0" prefWidth="900.0" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font></Label>
+      <Label fx:id="answerA" layoutX="33.0" layoutY="461.0" prefHeight="120.0" prefWidth="460.0" textFill="#f5f5f5">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font></Label>
+      <Label fx:id="answerB" layoutX="33.0" layoutY="603.0" prefHeight="120.0" prefWidth="460.0" textFill="#f5f5f5">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font></Label>
+      <Label fx:id="answerC" layoutX="531.0" layoutY="461.0" prefHeight="120.0" prefWidth="460.0" textFill="#f5f5f5">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font></Label>
+      <Label fx:id="answerD" layoutX="531.0" layoutY="603.0" prefHeight="120.0" prefWidth="460.0" textFill="#f5f5f5">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font></Label>
+      <Button fx:id="answerAButton" alignment="CENTER" contentDisplay="CENTER" layoutX="33.0" layoutY="461.0" mnemonicParsing="false" onAction="#chooseAnswerHandler" prefHeight="120.0" prefWidth="460.0" style="-fx-background-color: transparent;" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font></Button>
+      <Button fx:id="answerBButton" contentDisplay="CENTER" layoutX="33.0" layoutY="603.0" mnemonicParsing="false" onAction="#chooseAnswerHandler" prefHeight="120.0" prefWidth="460.0" style="-fx-background-color: transparent;" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font></Button>
+      <Button fx:id="answerCButton" contentDisplay="CENTER" layoutX="531.0" layoutY="461.0" mnemonicParsing="false" onAction="#chooseAnswerHandler" prefHeight="120.0" prefWidth="460.0" style="-fx-background-color: transparent;" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font></Button>
+      <Button fx:id="answerDButton" contentDisplay="CENTER" layoutX="531.0" layoutY="603.0" mnemonicParsing="false" onAction="#chooseAnswerHandler" prefHeight="120.0" prefWidth="460.0" style="-fx-background-color: transparent;" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font></Button>
+      <Button fx:id="startButton" layoutX="383.0" layoutY="269.0" mnemonicParsing="false" onAction="#startGame" prefHeight="250.0" prefWidth="258.0">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:res/PictureRes/Png%60s/PLayGame.png" />
+               </source>
+            </ImageInput>
+         </effect></Button>
+      <Label fx:id="scoresLabel" layoutX="33.0" layoutY="394.0" prefHeight="58.0" prefWidth="264.0" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ImageInput?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="engine.controllers.BonusLevelController">
+   <children>
+      <Label prefHeight="768.0" prefWidth="1024.0">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:res/PictureRes/Background/images.jpg" />
+               </source>
+            </ImageInput>
+         </effect>
+      </Label>
+      <Text fontSmoothingType="LCD" layoutX="381.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bonus Level" wrappingWidth="262.0546875">
+         <font>
+            <Font name="Agency FB" size="70.0" />
+         </font>
+         <fill>
+            <LinearGradient startX="1.0">
+               <stops>
+                  <Stop color="#e40303" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <VBox layoutX="377.0" layoutY="204.0" prefHeight="550.0" prefWidth="500.0" spacing="20.0">
+         <children>
+            <TextField fx:id="questionField" alignment="CENTER" prefHeight="200.0" prefWidth="500.0" promptText="Enter you question here">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="answerField1" alignment="CENTER" prefHeight="50.0" promptText="Enter a answer">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="answerField2" alignment="CENTER" prefHeight="50.0" promptText="Enter a answer">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="answerField3" alignment="CENTER" prefHeight="50.0" promptText="Enter a answer">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="answerField4" alignment="CENTER" prefHeight="50.0" promptText="Enter a answer">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="correctAnswerField" alignment="CENTER" prefHeight="50.0" prefWidth="500.0" promptText="Enter the correct answer">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+         </children>
+      </VBox>
+      <VBox alignment="TOP_CENTER" layoutX="122.0" layoutY="204.0" prefHeight="550.0" prefWidth="218.0">
+         <children>
+            <Label contentDisplay="RIGHT" prefHeight="100.0" prefWidth="150.0" text="QUESTION:">
+               <font>
+                  <Font name="Agency FB" size="40.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+               <textFill>
+                  <LinearGradient startX="1.0">
+                     <stops>
+                        <Stop color="#e40303" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label prefHeight="50.0" text="Answer:">
+               <font>
+                  <Font name="Agency FB" size="40.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="70.0" />
+               </VBox.margin>
+               <textFill>
+                  <LinearGradient startX="1.0">
+                     <stops>
+                        <Stop color="#e40303" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label prefHeight="50.0" text="Answer:">
+               <font>
+                  <Font name="Agency FB" size="40.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+               <textFill>
+                  <LinearGradient startX="1.0">
+                     <stops>
+                        <Stop color="#e40303" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label prefHeight="50.0" text="Answer:">
+               <font>
+                  <Font name="Agency FB" size="40.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+               <textFill>
+                  <LinearGradient startX="1.0">
+                     <stops>
+                        <Stop color="#e40303" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label prefHeight="50.0" text="Answer:">
+               <font>
+                  <Font name="Agency FB" size="40.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+               <textFill>
+                  <LinearGradient startX="1.0">
+                     <stops>
+                        <Stop color="#e40303" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label prefHeight="50.0" text="Correct Answer:">
+               <font>
+                  <Font name="Agency FB" size="40.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+               <textFill>
+                  <LinearGradient startX="1.0">
+                     <stops>
+                        <Stop color="#e40303" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+         </children>
+      </VBox>
+      <Label layoutX="175.0" layoutY="112.0" prefHeight="113.0" prefWidth="113.0">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:res/PictureRes/Png%60s/java2.png" />
+               </source>
+            </ImageInput>
+         </effect>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.412621359223301" startX="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button fx:id="newQuestion" layoutX="175.0" layoutY="109.0" mnemonicParsing="false" onAction="#addNewQuestion" prefHeight="152.0" prefWidth="113.0" style="-fx-background-color: transparent;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</Pane>

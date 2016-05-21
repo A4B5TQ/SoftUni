@@ -1,0 +1,5 @@
+Which one is true about arrays?|stores a fixed-size sequential collection of elements of the same type.|stores a fixed-size sequential collection of elements of the different types.|size is not fixed.|noneof the above.|stores a fixed-size sequential collection of elements of the same type.
+Which of the following will declare an array and initialize it?|Array a = new Array(5)|int array[] = new int [5]|int a[] = new int(5)|int [5] array|int array[] = new int [5]
+Which will legally declare, construct, and initialize an array?|int [] myList = {"5", "8", "2"}|nt [3] myList = (5, 8, 2)|int myList[] [] = {5,8,2,0}|int [] myList = {5, 8, 2}|int [] myList = {5, 8, 2}
+Suppose your code needs to traverse through an array named array1. Which code would you use to do this?|for(int i = 0; i <= array1.length; i++)|for(int i = 0; i < array1.length; i++)|for(int i = 0; i <= array1.length(); i++)|for(int i = 0; i < array1.length(); i++)|for(int i = 0; i < array1.length; i++)
+What is the value of seasons.length for the following array?|undefined|4|5|22|4
