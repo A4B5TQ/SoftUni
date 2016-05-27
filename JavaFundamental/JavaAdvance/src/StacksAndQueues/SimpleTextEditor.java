@@ -26,7 +26,7 @@ public class SimpleTextEditor {
                     break;
                 case 2:
                     int count = sc.nextInt();
-                    input = datas.peek().substring(0,datas.peek().length() - count);
+                    input = datas.peek().substring(0, datas.peek().length() - count);
                     datas.push(input);
                     break;
                 case 3:
