@@ -1,4 +1,4 @@
-package StacksAndQueues;
+package stacksAndQueues;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package TrainTheTrainers.ArraysInJava;
+package trainTheTrainers.ArraysInJava;
 
 public class ArraysExample {
     public static void main(String[] args) {
@@ -11,6 +11,11 @@ public class ArraysExample {
 
         numbers[3] = 20;
         numbers[5] = numbers[2] + numbers[7];
+
+        String[] arr = new String[5];
+        System.out.println(arr[0]);
+
+        System.out.println(System.getProperty("user.dir"));
 
     }
 }

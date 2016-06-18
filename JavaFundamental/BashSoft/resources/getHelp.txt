@@ -1,0 +1,19 @@
+mkdir path - make directory
+ls depth - traverse directory
+cmp path1 path2 - compare two files
+changeDirRel relativePath - change directory
+changeDir absolutePath - change directory
+readDb path - read students data base
+filterExcelent - filter excelent students (the output is written on the console)
+filterExcelent path - filter excelent students (the output is written in a given path)
+filterAverage - filter average students (the output is written on the console)
+filterAverage path - filter average students (the output is written in a file)
+filterPoor - filter low grade students (the output is on the console)
+filterPoor path - filter low grade students (the output is written in a file)
+order - sort students in increasing order (the output is written on the console)
+order path - sort students in increasing order (the output is written in a given path)
+decOrder - sort students in decreasing order (the output is written on the console)
+decOrder path - sort students in decreasing order (the output is written in a given path)
+download pathOfFile - download file (saved in current directory)
+downloadAsync path - download file asynchronously (save in the current directory)
+help - get help

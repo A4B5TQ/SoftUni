@@ -1,4 +1,4 @@
-package StacksAndQueues;
+package stacksAndQueues;
 
 import java.math.BigInteger;
 import java.util.Scanner;

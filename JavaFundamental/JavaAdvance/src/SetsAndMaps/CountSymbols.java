@@ -1,4 +1,4 @@
-package SetsAndMaps;
+package setsAndMaps;
 
 import java.util.Map;
 import java.util.Scanner;
