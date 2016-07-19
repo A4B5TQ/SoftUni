@@ -3,11 +3,11 @@ package javaOOPAdvance.iteratorsAndComparators.pr03;
 import javaOOPAdvance.iteratorsAndComparators.pr03.stack.CustomStack;
 import javaOOPAdvance.iteratorsAndComparators.pr03.stack.CustomStackImpl;
 
-import javax.naming.OperationNotSupportedException;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
+import java.util.NoSuchElementException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -42,8 +42,8 @@ public class Main {
                 case "Pop":
                     try {
                         stack.pop();
-                    } catch (OperationNotSupportedException exception) {
-                        System.out.printf("No elements%n");
+                    } catch (NoSuchElementException exception) {
+                        System.out.println(exception.getMessage());
                     }
                     break;
             }

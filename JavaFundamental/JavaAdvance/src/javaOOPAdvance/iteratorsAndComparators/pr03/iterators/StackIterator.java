@@ -1,7 +1,6 @@
 package javaOOPAdvance.iteratorsAndComparators.pr03.iterators;
 
 import java.util.Iterator;
-import java.util.NoSuchElementException;
 
 public class StackIterator implements Iterable<Integer> {
 
@@ -10,6 +9,7 @@ public class StackIterator implements Iterable<Integer> {
 
     public StackIterator(Integer[] newStack) {
         this.stack = newStack;
+        this.currentSize = stack.length;
     }
 
     @Override
@@ -20,15 +20,12 @@ public class StackIterator implements Iterable<Integer> {
 
             @Override
             public boolean hasNext() {
-                return currentIndex < currentSize;
+                return currentIndex < currentSize && currentIndex > 0;
             }
 
             @Override
             public Integer next() {
-                if (hasNext()) {
-                    return stack[--currentIndex];
-                }
-                throw new NoSuchElementException("No such element");
+                return stack[--currentIndex];
             }
 
             @Override

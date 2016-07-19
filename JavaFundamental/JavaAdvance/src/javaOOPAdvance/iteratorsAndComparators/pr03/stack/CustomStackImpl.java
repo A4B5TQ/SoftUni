@@ -4,6 +4,7 @@ import javaOOPAdvance.iteratorsAndComparators.pr03.iterators.StackIterator;
 
 import java.util.Arrays;
 import java.util.Iterator;
+import java.util.NoSuchElementException;
 import java.util.function.Consumer;
 
 public class CustomStackImpl implements CustomStack {
@@ -25,9 +26,14 @@ public class CustomStackImpl implements CustomStack {
 
     @Override
     public Integer pop() {
-        Integer element = elements[--size];
-        elements[size] = null;
-        return element;
+        try{
+
+            Integer element = elements[--size];
+            elements[size] = null;
+            return element;
+        } catch (ArrayIndexOutOfBoundsException ex){
+            throw new NoSuchElementException("No elements");
+        }
     }
 
     @Override
@@ -38,8 +44,11 @@ public class CustomStackImpl implements CustomStack {
     @Override
     public void forEach(Consumer<? super Integer> action) {
         Iterator<Integer> iterator = this.iterator();
-        while (iterator.hasNext()){
-            action.accept(iterator.next());
+        while (iterator.hasNext()) {
+            Integer current = iterator.next();
+            if (current != null) {
+                action.accept(current);
+            }
         }
     }
 

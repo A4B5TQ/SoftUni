@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3e1fa98-9a94-4e96-ae49-16ea55d61481" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr01and02/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr01and02/commandInterpreter/CommandInterpreter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr01and02/factory/ListyIteratorFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr01and02/factory/ListyIteratorFactoryImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr01and02/listyIterator/ListyIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr01and02/listyIterator/ListyIteratorImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/iterators/StackIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/stack/CustomStack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/stack/CustomStackImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/Main.java" afterPath="$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/iterators/StackIterator.java" afterPath="$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/iterators/StackIterator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/stack/CustomStack.java" afterPath="$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/stack/CustomStack.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/stack/CustomStackImpl.java" afterPath="$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/stack/CustomStackImpl.java" />
     </list>
     <ignored path="JavaAdvance.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,16 +43,15 @@
       <file leaf-file-name="StackIterator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/iterators/StackIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            <state relative-caret-position="328">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
                 <element signature="e#572#573#0" expanded="true" />
-                <element signature="e#637#638#0" expanded="true" />
-                <element signature="e#938#939#0" expanded="true" />
-                <element signature="e#1040#1041#0" expanded="true" />
+                <element signature="e#657#658#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
+                <element signature="e#776#777#0" expanded="true" />
+                <element signature="e#834#835#0" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,14 +60,14 @@
       <file leaf-file-name="CustomStackImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/stack/CustomStackImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="675">
+              <caret line="34" column="60" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#836#837#0" expanded="true" />
-                <element signature="e#897#898#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#1027#1028#0" expanded="true" />
+                <element signature="e#1088#1089#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,11 +76,9 @@
       <file leaf-file-name="CustomStack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/stack/CustomStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,8 +86,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3">
-              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+            <state relative-caret-position="328">
+              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -185,10 +175,10 @@
         <option value="$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/StackIterator.java" />
         <option value="$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/CustomStack.java" />
         <option value="$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/CustomStackImpl.java" />
-        <option value="$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/stack/CustomStack.java" />
-        <option value="$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/Main.java" />
         <option value="$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/iterators/StackIterator.java" />
         <option value="$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/stack/CustomStackImpl.java" />
+        <option value="$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/stack/CustomStack.java" />
+        <option value="$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/Main.java" />
       </list>
     </option>
   </component>
@@ -1069,12 +1059,12 @@
       <workItem from="1468751046304" duration="991000" />
       <workItem from="1468754212998" duration="2580000" />
       <workItem from="1468860585278" duration="1528000" />
-      <workItem from="1468947920977" duration="11416000" />
+      <workItem from="1468947920977" duration="13274000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116677000" />
+    <option name="totallyTimeSpent" value="118535000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1173,7 +1163,7 @@
           <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="45" />
+      <option name="time" value="49" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1182,13 +1172,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/javaOOPBasics/eliDemo/Go.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/javaOOPBasics/eliDemo/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1491,50 +1474,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/stack/CustomStack.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_72/src.zip!/java/util/function/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="228">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/iterators/StackIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/stack/CustomStackImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        <state relative-caret-position="675">
+          <caret line="34" column="60" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/iterators/StackIterator.java">
+    <entry file="file://$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/stack/CustomStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/javaOOPAdvance/iteratorsAndComparators/pr03/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        <state relative-caret-position="328">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
