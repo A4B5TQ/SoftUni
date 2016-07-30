@@ -1,19 +1,12 @@
-mkdir path - make directory
-ls depth - traverse directory
-cmp path1 path2 - compare two files
-changeDirRel relativePath - change directory
-changeDir absolutePath - change directory
-readDb path - read students data base
-filterExcelent - filter excelent students (the output is written on the console)
-filterExcelent path - filter excelent students (the output is written in a given path)
-filterAverage - filter average students (the output is written on the console)
-filterAverage path - filter average students (the output is written in a file)
-filterPoor - filter low grade students (the output is on the console)
-filterPoor path - filter low grade students (the output is written in a file)
-order - sort students in increasing order (the output is written on the console)
-order path - sort students in increasing order (the output is written in a given path)
-decOrder - sort students in decreasing order (the output is written on the console)
-decOrder path - sort students in decreasing order (the output is written in a given path)
-download pathOfFile - download file (saved in current directory)
-downloadAsync path - download file asynchronously (save in the current directory)
-help - get help
+make directory - mkdir nameOfFolder
+traverse directory - ls depth
+comparing files - cmp absolutePath1 absolutePath2
+change directory - cdRel relativePath or ".." for level up
+change directory - cdAbs absolutePath
+read students data base - readDb fileName
+filter students - filter {courseName} excellent/average/poor take 2/5/all
+order students - order {courseName} ascending/descending take 20/10/all
+download file - download URL (saved in current directory)
+download file on new thread - downloadAsynch URL (saved in the current directory)
+display data entities - display students/courses ascending/descending
+get help – help
