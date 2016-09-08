@@ -24,7 +24,7 @@ public class PrintFilteredStudentsCommand extends Command implements Executable 
 
         String[] data = this.getData();
         if (data.length != 5) {
-           throw new InvalidInputException(this.getInput());
+            throw new InvalidInputException(this.getInput());
         }
 
         String course = data[1];
